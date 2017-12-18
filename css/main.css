@@ -205,6 +205,117 @@ font-weight: 700;
     margin-left: 20px;
 }
 
+.paragraphs-hero{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.paragraphs-hero-small{
+    font-size: 1rem;
+    position: relative;
+    bottom: 8px;
+    margin-right: 5px;
+}
+
+.hr-info::before{
+    content:" ";
+    background-color:#fff;
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    height: 1px;
+    margin-right: 50px;
+}
+
+.hr-info::after{
+    content:" ";
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    height: 1px;
+    margin-left: 50px;
+}
+
+.desktop-celular{
+    border: 1px solid #fff;
+    border-left: none;
+    height: 400px;
+    padding: 10px;
+    padding-top: 35px;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-celular{
+ font-size:2rem;
+ font-weight: 700;
+}
+
+.desktop-footer ul{
+   list-style: none;
+}
+
+.desktop-footer ul>li>a{
+    color: #fff;
+}
+
+.flex{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.flex-end{
+  align-self: flex-end;
+}
+
+.block{
+    display: block;
+}
+
+.padding-top{
+    padding-top: 100px;
+}
+
+.margin-left{
+    margin-left: 28%;
+}
+
+/* modales */
+
+.container-form-sesion{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #D7D4D2;
+  }
+  
+  .container-form-sesion p{
+      margin-top: 5px;
+  }
+  
+  .container-form-sesion p a{
+     color: #F7474D;
+     font-weight: 500;
+  }
+
+.circle{
+    color:#06B5C8 ;
+    font-size: 8rem;
+}
+
+.button{
+    background-color: #2086C6 ;
+    color: #fff;
+    font-weight: 700;
+}
+
+.close{
+    position: relative;
+    left: 45%;
+}
 @media (min-width: 768px) {
     .position{
        float: right;

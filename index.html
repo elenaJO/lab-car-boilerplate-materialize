@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Document</title>
+    <title>Lab Car Materialize</title>
 </head>
 <body>
     <nav>
@@ -19,12 +19,12 @@
                 <ul class="right hide-on-med-and-down list">
                     <li><a href="#">Viaja</a></li>
                     <li><a href="#">Conduce</a></li>
-                    <li><a href="#">Inicia Sesion</a></li>
+                    <li><a class="modal-trigger" href="#window-sesion">Inicia Sesion</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="#">Viaja</a></li>
                     <li><a href="#">Conduce</a></li>
-                    <li><a href="#">Inicia Sesion</a></li>
+                    <li><a class="modal-trigger" href="#window-sesion">Inicia Sesion</a></li>
                 </ul>
         </div>          
     </nav>
@@ -42,13 +42,13 @@
                                     <p class="paragraphs-hero">Eres dueño de tu tiempo</p>
                                     <div>
                                       <p><span class="paragraphs-hero-small">Viaja con</span><img src="assets/images/logoBlanco.png" alt="" class="logo-info"></p>
-                                      <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#window-registrate">REGISTRATE</button>
+                                      <a class="waves-effect waves-light btn modal-trigger button-section-one" href="#modal1">Registrate</a>
                                       <div class="container-span margin">
                                           <span class="hr-info">O bien</span>
                                       </div>
-                                      <button class="btn btn-default margin" type="submit" data-toggle="modal" data-target="#window-conductor">Conviertete en un conductor</button>                     
+                                      <a class="waves-effect waves-light btn button-section-one">Conviertete en un conductor</a>                    
                                     </div>
-                                  </div>                                                                       
+                            </div>                                                                       
                         </div>
                     </div>
             </section>
@@ -104,7 +104,7 @@
                           </div>
                         </div>
                         <div class="col s12 m6 l8">
-                          <div class="container-map-graffy">
+                          <div class="container-map-graffy margin-left">
                             <div class="map-1"></div>
                           </div>
                         </div>
@@ -148,7 +148,50 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
+            <div class="desktop-footer">
+                <div class="row flex">
+                  <div class="col s3 m3 flex-end">
+                     <div class="icons padding-top">
+                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                         <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                         <a href=""><i class="fa fa-apple" aria-hidden="true"></i></a> 
+                         <a href=""><i class="fa fa-play" aria-hidden="true"></i></a> 
+                      </div>
+                  </div>
+                  <div class="col s3 m3">
+                     <ul class="margin">
+                         <li><a href="">Viaja</a></li>
+                         <li><a href="">Conduce</a></li>
+                         <li><a href="">Ciudades</a> </li>
+                         <li><a href="">Ciudades</a> </li>
+                         <li><a href="">Entrega</a> </li>
+                         <li><a href="">Como funciona?</a> </li>
+                         <li><a href="">Paises</a></li>
+                         <li><a href="">Seguridad</a></li>
+                       </ul>
+                  </div>
+                  <div class="col s3 m3">
+                    <ul class="margin">
+                      <li><a href="">Oportunidades</a></li>
+                      <li><a href="">Nuestra historia</a></li>
+                      <li><a href="">API de Lab</a></li>
+                      <li><a href="">Evntos</a></li>
+                      <li><a href="">Desarrolladores</a></li>
+                      <li><a href="">Servicio</a></li>
+                      <li><a href="">Laboratoria</a></li>
+                      <li><a href="">Coders</a></li>
+                    </ul>
+                  </div>
+                  <div class="col s3 m3 flex-end">
+                     <div class="container-app padding-top">
+                         <a href="" class="block"><img src="assets/images/enBadgeWebGeneric.png" alt=""></a> 
+                         <a href="" class="block"><img src="assets/images/appstore.png" alt=""></a>
+                       </div>
+                  </div>
+                </div>
+              </div>             
             <div class="row no-margin-row">
                 <div class="col-xs-12">
                     <div>
@@ -158,6 +201,68 @@
                 </div>
             </div>               
         </footer>
+
+        <!-- Modal Structure -->
+   <div id="window-sesion" class="modal">
+    <div class="modal-content center">
+        <div class="row">
+            <i class="material-icons prefix modal-close close">cancel</i>
+        </div>
+        <i class="material-icons circle">account_circle</i>
+        <div class="container-form-sesion center">  
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">First Name</label>
+                    </div>  
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">enhanced_encryption</i>
+                        <input id="icon_password" type="password" class="validate">
+                        <label for="icon_password">Password</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                        <a class="waves-effect waves-light btn button">LOGIN</a>
+                        <p>Forgot password? <a href="">Click here</a></p>
+                  </div>
+                </form>            
+            </div>
+        </div>
+    </div>
+    <div id="window-sesion" class="modal">
+            <div class="modal-content center">
+                <div class="row">
+                    <i class="material-icons prefix modal-close close">cancel</i>
+                </div>
+                <i class="material-icons circle">account_circle</i>
+                <div class="container-form-sesion center">  
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field col s12">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="icon_prefix" type="text" class="validate">
+                              <label for="icon_prefix">First Name</label>
+                            </div>  
+                          </div>
+                          <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">enhanced_encryption</i>
+                                <input id="icon_password" type="password" class="validate">
+                                <label for="icon_password">Password</label>
+                            </div>
+                          </div>
+                          <div class="row">
+                                <a class="waves-effect waves-light btn button">LOGIN</a>
+                                <p>Forgot password? <a href="">Click here</a></p>
+                          </div>
+                        </form>            
+                </div>
+            </div>
+          </div>
     <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="vendors/materialize/js//materialize.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
