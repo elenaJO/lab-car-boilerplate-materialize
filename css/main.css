@@ -198,3 +198,55 @@ font-weight: 700;
   footer .margin img{
       margin-bottom: 10px;
   }
+
+  /* desktop */
+
+  .destok-info{
+    margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .position{
+       float: right;
+    }
+ 
+    .mobile-info{
+        display: none;
+    }
+ 
+    .mobile-celular{
+        display: none;
+    }
+ 
+    .map-1{
+        background-image: url(../assets/images/map2.PNG);
+        height: 450px;
+        width: 400px;
+    }
+ 
+    .container-map-graffy {
+        width: 420px;
+    }
+ 
+    .mobile-footer{
+        display: none;
+    }
+ 
+    .container-app a>img{
+        width: 100px;
+    }
+ }
+ 
+ @media (max-width: 768px){
+     .destok-info{
+         display: none;
+     }
+ 
+     .desktop-celular{
+         display: none;
+     }
+ 
+     .desktop-footer{
+         display: none;
+     }
+ }
