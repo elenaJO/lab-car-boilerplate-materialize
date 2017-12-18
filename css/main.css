@@ -161,3 +161,40 @@ font-weight: 700;
     height: 250px;
     width: 100%;
 }  
+
+.margin{
+    margin-top: 20px;
+}
+
+.back-black{
+    background-color: #333333;
+}
+
+.mobile-footer ul{
+    list-style: none;
+    margin-top: 10px;
+}
+  
+.mobile-footer ul>li>a{
+      color: #fff;
+}
+ 
+.fa {
+    color: #fff;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+.container-app{
+    overflow: auto;
+    width: 60%;
+  }
+  
+  .container-app a>img{
+      width: 70%;
+      margin-bottom: 20px;
+  }
+  
+  footer .margin img{
+      margin-bottom: 10px;
+  }
