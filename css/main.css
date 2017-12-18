@@ -35,7 +35,7 @@
     background-image: url(../assets/images/taxi.jpg);
     height: 600px;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
 }
 
