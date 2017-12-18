@@ -95,3 +95,69 @@
 .text-margin{
     margin-left: 20px;
 }
+
+.conduce-image{
+    background-image: url(../assets/images/conduce.jpg);
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container-conductor{
+    background: rgba(0, 0, 0, 0.5);
+    height: 360px;
+    padding: 70px 20px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.no-margin-row{
+    margin-bottom: 0;
+}
+
+.container-map{
+    padding: 15px;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.center{
+    text-align: center;
+}
+
+.paragraphs-map{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.button-map{
+   background-color: #fff;
+   color:#000;
+font-weight: 700;
+}
+
+.container-map-graffy{
+    outline: 1px solid #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-1{
+    background-image: url(../assets/images/map1.PNG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}  
